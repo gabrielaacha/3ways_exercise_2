@@ -1,21 +1,25 @@
 # 3ways_exercise_2
 
 ![screenshot code](images/screenshot_code_1.png)
+![screenshot_code](images/screenshot_code_2.png)
 
 * first I made two couters with default value 0; one for the xs and one for the os
 
 ```   let counterO = 0;
-       let counterX = 0;  ``` 
+       let counterX = 0; 
+ ``` 
 
 * I split each character, turning the string into an array
 
 
-``` let splitStr = str.toLowerCase().split("");  ```
+``` let splitStr = str.toLowerCase().split(""); 
+ ```
 
 * for loop
 
 
-```  for (let i = 0; i < splitStr.length; i++) {}  ```
+```  for (let i = 0; i < splitStr.length; i++) {} 
+ ```
 
 * condition: if an index is equal to x or to o, add one to the couter
 
